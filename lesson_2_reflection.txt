@@ -8,4 +8,8 @@ How is the staging area different from the working directory and the repository?
 - Staging area represents uncommitted changes.
 - Working directory may contain files which are not to be part of the repository, and files which are not yet added to the repository.
 - The repository itself only contains committed files.
-- Byhaving a staging area it is possible to collect changes together as a unit-of-work for committing together. 
+- By having a staging area it is possible to collect changes together as a unit-of-work for committing together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- Only "git add" those files which constitute a single logical change before committing
