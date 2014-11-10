@@ -19,3 +19,7 @@ What are some situations when branches would be helpful in keeping your history 
 - experimental changes - may not make the final version
 - want to create 2 versions/releases simultaneously 
 - need to fix current release while working on new features
+
+How do the diagrams help you visualize the branch structure?
+
+- diagrams show which commits are reachable from which branch
